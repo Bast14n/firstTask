@@ -6,5 +6,5 @@ const button = document.querySelector('button');
 
 button.addEventListener('click',() => {
  const txt = 'lubie placki';
- document.querySelector('.info').textContent = txt;
+ document.getElementById('info').textContent = txt;
 });
